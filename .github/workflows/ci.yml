@@ -25,6 +25,10 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
 
+    - name: Affichage
+      run: ls ./build/
+
+
     - name: Build with Gradle
       run: ./gradlew build
 
